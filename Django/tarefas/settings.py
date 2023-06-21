@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apptest',
+    'appteste',
     'rest_framework',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
@@ -71,6 +72,25 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'tarefas.wsgi.application'
 
+REDOC_SETTINGS = {
+    "HIDE_HOSTNAME": True,
+    "EXPAND_RESPONSES": "all",
+    "no-auto-auth": True,
+}
+
+SWAGGER_SETTINGS = {
+    "USE_SESSION_AUTH": False,
+    "SECURITY_DEFINITIONS": {},
+    "VALIDATOR_URL": "",
+    "OPERATIONS_SORTER": "method",
+    "TAGS_SORTER": None,
+    "DOC_EXPANSION": "list",
+    "DEEP_LINKING": False,
+    "SHOW_EXTENSIONS": True,
+    "DEFAULT_INFO": "config.docs.swagger_info",
+    "DEFAULT_MODEL_RENDERING": "model",
+    "DEFAULT_MODEL_DEPTH": 2,
+}
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases

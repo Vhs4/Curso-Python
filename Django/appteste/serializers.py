@@ -5,4 +5,4 @@ class BrandSerializers(serializers.ModelSerializer):
 
     class Meta:
         model = Brand
-        fields = "_all__"
+        fields = "__all__"
