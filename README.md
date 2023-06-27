@@ -1,6 +1,6 @@
 # Curso-Python
 
-📚 Curso presencial introdutório de python, com os principais conceitos aprendidos como:
+📚 Curso presencial introdutório de python em que eu conclui, com os principais conceitos aprendidos como:
 
 - POO - Programação orientada a objetos
 - Casting
